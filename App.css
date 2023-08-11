@@ -821,3 +821,32 @@ margin-right: 10px;
   margin-bottom: 10px;
 
 }
+/* jobscategory */
+.btn12{
+
+
+  padding: 5px;
+  margin: 2px; 
+  width: 60px;
+  background-color: #fdfeff;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  margin-left: 5px;
+
+}
+.btn14{
+
+  padding: 10px;
+  margin: 10px; 
+  width: 150px;
+  background-color: #fdfeff;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+  margin-left: 5px;
+}

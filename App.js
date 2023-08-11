@@ -18,6 +18,12 @@ import Sub from './submit';
 import Profile from './profile/profile';
 import Applied from './profile/applied';
 import Jobalert from './profile/jobalert';
+import CompanyList from './browesjob1';
+import Jobcategory from './jobecategory';
+import Joblocations from './jobloactions';
+import Jobcompany from './jobcompanys';
+import Jobdesign1 from './jobs by design';
+import Jobskills from './job skills';
 function App() {
  
   return (
@@ -38,6 +44,12 @@ function App() {
   <Route path="/profile" element={<Profile/>}/>
   <Route path="/applied" element={<Applied/>}/>
   <Route path="/jobalert" element={<Jobalert/>}/>
+  <Route path="/ContentFilter" element={<CompanyList/>}/>
+  <Route path="/jobcategory" element={<Jobcategory/>}/>
+  <Route path="/joblocations" element={<Joblocations/>}/>
+  <Route path="/joblocompany" element={<Jobcompany/>}/>
+  <Route path="/jobdesign" element={<Jobdesign1/>}/>
+  <Route path="/jobskills" element={<Jobskills/>}/>
  </Routes>
  <Footer/>
     </div>

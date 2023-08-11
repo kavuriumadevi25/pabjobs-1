@@ -130,14 +130,20 @@ function Jobs(){
     <div class="col-2">
 
     </div>
-    <div class=" d-flex  parent-container">
-        <div class="fixed-container d-flex flex-column p-3 col-3 categoryBtnContainer">
-            <button class=" categoryButton m-1 ">All Jobs</button>
-            <button class="categoryBtn m-1"> Jobs By location</button>
-            <button class="categoryBtn m-1"> Jobs By Company</button>
-            <button class="categoryBtn m-1"> Jobs By Category</button>
-            <button class="categoryBtn m-1"> Jobs By Designation</button>
-            <button class="categoryBtn m-1"> Jobs By Skills</button>
+    <div class="col-md-2  d-flex  parent-container">
+          <div class="fixed-container d-flex flex-column p-3 col-3 categoryBtnContainer">
+            <Link to="/jobs">
+              {" "}
+              <button class=" categoryButton m-1 ">All Jobs</button>
+            </Link>
+           <Link to="/joblocations"> <button class="categoryBtn m-1"> Jobs By location</button></Link>
+           <Link to="/joblocompany"><button class="categoryBtn m-1"> Jobs By Company</button></Link> 
+            <Link to="/jobcategory">
+              <button class="categoryBtn m-1"> Jobs By Category</button>
+            </Link>
+           <Link to="/jobdesign"> <button class="categoryBtn m-1"> Jobs By Designation</button></Link>
+           <Link to="/jobskills"> <button class="categoryBtn m-1"> Jobs By Skills</button></Link>
+          </div>
         </div>
 
         <div class="col-md-8 p-4 allJobsContainer">
@@ -459,7 +465,7 @@ function Jobs(){
 
         </div>
     </div>
-</div>
+
 
 
 

@@ -38,10 +38,12 @@ function Profile(){
                     </div>
                 </div>
             </nav>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2">
-            <div class="card">
+
+
+<div className='container'>
+    <div className='row'>
+        <div className='col-md-5'>
+        <div class="">
                 <i class=" fa-sharp fa-solid fa-circle-user profileicon mb-4 mt-3" style={{fontsize: "200px"}}></i>
                 <a href="profile.html"><button class="p-2 mb-1 profilebutton w-75 active text-white" style={{backgroundColor:" rgb(19, 19, 66)"}}>Candidate Profile</button></a>
                 <a href="resume.html"><button class="p-2 mb-1 profilebutton w-75">Resume</button></a>
@@ -51,11 +53,14 @@ function Profile(){
                             <a href="changepassword.html"><button class="p-2 mb-1 profilebutton w-75">Change Password</button></a>
                                 <a href="loginform.html"><button class="p-2 mb-1 profilebutton w-75">Log Out</button></a>
             </div>
+    
+    </div>
+    <div className='col-md-1'>
 
-        </div>
-        <div className='col-md-2'></div>
-        <div class="col-md-7">
-            <div class="card profilecard p-3">
+    </div>
+    
+        <div className='col-md-5'>
+        <div class=" profilecard p-3">
                <h6 class="profileh5">Basic Information</h6>
                <hr/>
                <label for="" class="profilename mb-1">Name</label>
@@ -106,6 +111,8 @@ function Profile(){
             </div>
         </div>
     </div>
+    
+
 </div>
 
         </div>

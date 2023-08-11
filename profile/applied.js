@@ -5,8 +5,8 @@ function Applied(){
         <div>
  <div class="container">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div className="col-md-2 card">
+            
+            <div className="col-md-5 ">
                
                     <i class=" fa-sharp fa-solid fa-circle-user profileicon mb-4 mt-3" style={{fontsize: "200px"}}></i>
                     <a href="profile.html"><button class="p-2 mb-1 profilebutton w-100">Candidate Profile</button></a>
@@ -22,10 +22,10 @@ function Applied(){
             {/* <!-- 2nd part --> */}
          
            
-                {/* <div class="card profilecard p-3">
+                <div class="profilecard p-3">
                     <h6>2 Applied Jobs Found</h6>
                     <hr/>
-                    <div class="col-md-7 p-1 mb-3 ">
+                    <div class="col-md-5 p-1 mb-3 ">
                     <div class=" d-flex flex-row ">
                         <div class="d-flex flex-row col-md-6" style={{borderright: "2px solid black", height: "80px"}}>
                             <div class="mt-3">
@@ -59,7 +59,7 @@ function Applied(){
                     </div>
                 </div>
                     
-                <div class="card p-1 ">
+                <div class=" p-1 ">
                     <div class=" d-flex flex-row ">
                         <div class="d-flex flex-row col-md-6" style={{borderright: "2px solid black", height: "80px"}}>
                             <div class="mt-3">
@@ -96,7 +96,7 @@ function Applied(){
 
 
 
-                </div> */}
+                </div>
          
         </div>
     </div>
